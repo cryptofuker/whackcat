@@ -14,7 +14,7 @@ module.exports = {
     output: {
         filename: filenames('js'),
         path: path.resolve(__dirname, 'dist'),
-        publicPath: '/whack-a-cat/'
+        publicPath: '/whackcat/'
     },
     devServer: {
         port: 4200,
