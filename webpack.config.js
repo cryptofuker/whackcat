@@ -22,7 +22,8 @@ module.exports = {
     },
     plugins: [
         new HTMLWebpackPlugin({
-            template: './index.html'
+            template: './index.html',
+            publicPath: '/whackcat/'
         }),
         new CleanWebpackPlugin(),
         new CopyWebpackPlugin({
