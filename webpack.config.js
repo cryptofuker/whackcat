@@ -10,10 +10,11 @@ console.log('IS DEV:', isDev);
 const filenames = ext => isDev ? `[name].${ext}` : `[name].[hash].${ext}`;
 
 module.exports = {
-    entry: './assets/js/index.js',
+    entry: ['./assets/js/index.js', './src/styles.css'],
     output: {
         filename: filenames('js'),
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, 'dist'),
+        publicPath: '/whack-a-cat/'
     },
     devServer: {
         port: 4200,

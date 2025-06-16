@@ -25,8 +25,8 @@
             <button class="start-btn">Start!</button>
 
             <div class="menu__contacts">
-                <a class="contact" href="https://www.linkedin.com/in/alexandra-liutsko-6a4720212/">by Alexandra Liutsko</a>
-                <a class="contact" href="https://github.com/Nekoguard">Github</a>
+                <a class="contact" href="">by Deadlock Crypto</a>
+                <a class="contact" href="https://x.com/deadlockcrypto">X</a>
             </div>
         </div>
 
@@ -61,6 +61,10 @@
 
             <div class="game__footer">
                 <div class="game__level">Level <span class="level"></span></div>
+                <div class="search-bar">
+                    <span class="ca-text">ca:Coming Soon</span>
+                    <button class="copy-btn" onclick="copyText()">📋</button>
+                </div>
                 <button class="btn exit">Exit</button>
             </div>
         </div>
@@ -84,4 +88,16 @@
             </div>
         </div>
     </body>
+    <script>
+        function copyText() {
+            const text = document.querySelector('.ca-text').textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                const copyBtn = document.querySelector('.copy-btn');
+                copyBtn.textContent = '✓';
+                setTimeout(() => {
+                    copyBtn.textContent = '📋';
+                }, 2000);
+            });
+        }
+    </script>
 </html>

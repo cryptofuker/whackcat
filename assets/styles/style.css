@@ -11,7 +11,7 @@
 html {
     background: url("../img/bg.png") no-repeat;
     background-size: cover;
-    cursor: url("../img/paw.png") 0 0, default;
+    cursor: url("../img/paw.png"), auto;
 }
 
 body {
@@ -140,6 +140,8 @@ body {
 .game__interface {
     padding: 30px 70px 30px 30px;
     align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 .score {
@@ -330,6 +332,21 @@ body {
     width: 100%;
     text-align: center;
     font-size: 50px;
+}
+
+.search-bar {
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid #000;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    min-width: 200px;
+    margin: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-height: 850px) {
