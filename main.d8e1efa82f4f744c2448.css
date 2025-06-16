@@ -9,9 +9,9 @@
 }
 
 html {
-    background: url(/whack-a-cat/3ee6cdfa50bbc888040e.png) no-repeat;
+    background: url(/whackcat/3ee6cdfa50bbc888040e.png) no-repeat;
     background-size: cover;
-    cursor: url(/whack-a-cat/0ced27078a7905d9676a.png), auto;
+    cursor: url(/whackcat/0ced27078a7905d9676a.png), auto;
 }
 
 body {
@@ -39,7 +39,7 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    background: url(/whack-a-cat/3ee6cdfa50bbc888040e.png) no-repeat;
+    background: url(/whackcat/3ee6cdfa50bbc888040e.png) no-repeat;
     background-size: cover;
 
     transition: transform .7s linear;
@@ -122,7 +122,7 @@ body {
     align-items: center;
     justify-content: space-between;
 
-    background: url(/whack-a-cat/3ee6cdfa50bbc888040e.png) no-repeat;
+    background: url(/whackcat/3ee6cdfa50bbc888040e.png) no-repeat;
     background-size: cover;
 
     transition: transform .5s linear;
@@ -181,7 +181,7 @@ body {
 
 .box::after {
     display: block;
-    background: url(/whack-a-cat/c2473a31c94cb3543e26.png) bottom center no-repeat;
+    background: url(/whackcat/c2473a31c94cb3543e26.png) bottom center no-repeat;
     background-size: contain;
     content: '';
     width: 100%;
@@ -192,7 +192,7 @@ body {
 }
 
 .cat {
-    background: url(/whack-a-cat/bbb94230e5bfd231e694.png) bottom center no-repeat;
+    background: url(/whackcat/bbb94230e5bfd231e694.png) bottom center no-repeat;
     background-size: contain;
     position: absolute;
     top: 100%;
@@ -270,7 +270,7 @@ body {
     justify-content: space-around;
     align-items: center;
 
-    background: url(/whack-a-cat/3ee6cdfa50bbc888040e.png) center center no-repeat;
+    background: url(/whackcat/3ee6cdfa50bbc888040e.png) center center no-repeat;
     border: 3px solid black;
     border-radius: 10px;
 }
